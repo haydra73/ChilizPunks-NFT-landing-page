@@ -1,0 +1,156 @@
+// Font definitions and default styles
+@mixin light {
+  font-family: $primary-font;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@mixin regular {
+  font-family: $primary-font;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin medium {
+  font-family: $primary-font;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@mixin bold {
+  font-family: $primary-font;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pangram";
+  src: url("../fonts/pangram/subset-Pangram-ExtraLight.woff2") format("woff2"),
+    url("../fonts/pangram/subset-Pangram-ExtraLight.woff") format("woff"),
+    url("../fonts/pangram/subset-Pangram-ExtraLight.ttf") format("truetype"),
+    url("../fonts/pangram/subset-Pangram-ExtraLight.svg#Pangram-ExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pangram";
+  src: url("../fonts/pangram/subset-Pangram-ExtraBold.woff2") format("woff2"),
+    url("../fonts/pangram/subset-Pangram-ExtraBold.woff") format("woff"),
+    url("../fonts/pangram/subset-Pangram-ExtraBold.ttf") format("truetype"),
+    url("../fonts/pangram/subset-Pangram-ExtraBold.svg#Pangram-ExtraBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pangram";
+  src: url("../fonts/pangram/subset-Pangram-Light.woff2") format("woff2"),
+    url("../fonts/pangram/subset-Pangram-Light.woff") format("woff"),
+    url("../fonts/pangram/subset-Pangram-Light.ttf") format("truetype"),
+    url("../fonts/pangram/subset-Pangram-Light.svg#Pangram-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pangram";
+  src: url("../fonts/pangram/subset-Pangram-Medium.woff2") format("woff2"),
+    url("../fonts/pangram/subset-Pangram-Medium.woff") format("woff"),
+    url("../fonts/pangram/subset-Pangram-Medium.ttf") format("truetype"),
+    url("../fonts/pangram/subset-Pangram-Medium.svg#Pangram-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pangram";
+  src: url("../fonts/pangram/subset-Pangram-Regular.woff2") format("woff2"),
+    url("../fonts/pangram/subset-Pangram-Regular.woff") format("woff"),
+    url("../fonts/pangram/subset-Pangram-Regular.ttf") format("truetype"),
+    url("../fonts/pangram/subset-Pangram-Regular.svg#Pangram-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pangram";
+  src: url("../fonts/pangram/subset-Pangram-Black.woff2") format("woff2"),
+    url("../fonts/pangram/subset-Pangram-Black.woff") format("woff"),
+    url("../fonts/pangram/subset-Pangram-Black.ttf") format("truetype"),
+    url("../fonts/pangram/subset-Pangram-Black.svg#Pangram-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pangram";
+  src: url("../fonts/pangram/subset-Pangram-Bold.woff2") format("woff2"),
+    url("../fonts/pangram/subset-Pangram-Bold.woff") format("woff"),
+    url("../fonts/pangram/subset-Pangram-Bold.ttf") format("truetype"),
+    url("../fonts/pangram/subset-Pangram-Bold.svg#Pangram-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+/// my fonts
+
+@font-face {
+  font-family: "04b";
+  src: url("../fonts/04b/04B.TTF") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Retro";
+  src: url("../fonts/retro_gaming/Retro-Gaming.ttf") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/inter/static/Inter-Regular.ttf") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/inter/static/Inter-Medium.ttf") format("truetype");
+
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/inter/static/Inter-Bold.ttf") format("truetype");
+
+  font-weight: bolder;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/inter/static/Inter-Light.ttf") format("truetype");
+
+  font-weight: lighter;
+  font-style: normal;
+  font-display: swap;
+}

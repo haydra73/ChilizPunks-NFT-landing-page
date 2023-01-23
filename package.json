@@ -1,0 +1,25 @@
+{
+  "name": "chilizpunk",
+  "version": "1.0.0",
+  "description": "Description",
+  "author": "Hayder",
+  "devDependencies": {
+    "browser-sync": "*",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "*",
+    "gulp-cache": "*",
+    "gulp-concat": "*",
+    "gulp-file-include": "*",
+    "gulp-imagemin": "*",
+    "gulp-minify-css": "*",
+    "gulp-nunjucks-render": "^2.0.0",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-uglify": "*",
+    "node-sass": "^7.0.1"
+  },
+  "scripts": {
+    "build": "npm install && gulp"
+  }
+}

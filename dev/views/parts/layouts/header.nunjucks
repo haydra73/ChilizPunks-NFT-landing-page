@@ -1,0 +1,48 @@
+<header class="contain-192" id="header">
+  <div class="header-pattern"></div>
+  <nav class="nav contain-129">
+    <img src="assets/img/logo.png" alt="logo" class="nav-logo"/>
+    
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#Home" class="nav__link active__link">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="#Collection" class="nav__link">Collection</a>
+        </li>
+        <li class="nav__item"><a href="#About" class="nav__link">About</a></li>
+        <li class="nav__item">
+          <a href="#Roadmap" class="nav__link">Roadmap</a>
+        </li>
+        <li class="nav__item"><a href="#Teams" class="nav__link">Teams</a></li>
+        <li class="nav__item"><a href="#Faqs" class="nav__link">Faqs</a></li>
+      </ul>
+    
+    <div class="nav__menu" id="nav-menu">
+      <ul class="mobNav__list">
+        <li class="mobNav__item">
+          <a href="#Home" class="mobNav__link active__link">Home</a>
+        </li>
+        <li class="mobNav__item">
+          <a href="#Collection" class="mobNav__link">Collection</a>
+        </li>
+        <li class="mobNav__item"><a href="#About" class="mobNav__link">About</a></li>
+        <li class="mobNav__item">
+          <a href="#Roadmap" class="mobNav__link">Roadmap</a>
+        </li>
+        <li class="mobNav__item"><a href="#Teams" class="mobNav__link">Teams</a></li>
+        <li class="mobNav__item"><a href="#Faqs" class="mobNav__link">Faqs</a></li>
+      </ul>
+    </div>
+    <div class="mobView">
+      <div class="nav-btn" id="ConnetBtn">
+        <img src="assets/img/buttonYellow.png" alt="button" />
+        <span>Connect</span>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-grid-alt"></i>
+      </div>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,372 @@
+{% extends "./templates/layout.nunjucks" %} {% block title %}Home{% endblock %}
+{% block css %} {% endblock %} {% block content %}
+
+<main id="Home">
+ 
+  <img src="assets/img/welcome.png" alt="" class="welcome" />
+
+  <h1 class="football-title">FOOTBALL BLOCKCHAIN</h1>
+  <div class="countdown mt-medium mb-small">
+    <div class="parallax home__buy" data-rellax-speed="0">
+      <div class="countdown">
+        <h4 class="countdown__header"></h4>
+        <div id="countdown">
+          <ul>
+            <li class="calendar">
+              <img src="assets/img/calender.png" alt="" />
+              <div class="counter">
+                <p>Days</p>
+                <span id="days"></span>
+              </div>
+            </li>
+            <li class="calendar">
+              <img src="assets/img/calender.png" alt="" />
+              <div class="counter">
+                <p>Hours</p>
+                <span id="hours"></span>
+              </div>
+            </li>
+            <li class="calendar">
+              <img src="assets/img/calender.png" alt="" />
+              <div class="counter">
+                <p>Minutes</p>
+                <span id="minutes"></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="buy-btn">
+        <img src="assets/img/buttonCyan.png" alt="btn" />
+        <span>Buy</span>
+      </div>
+    </div>
+  </div>
+</main>
+
+<section class="collection contain-192" id="Collection">
+ 
+  <div class="title-NFT">
+    <img src="assets/img/dejong.png" alt="dejong" class="NFT"/>
+    <img src="assets/img/debruyne.png" alt="debruyne" class="NFT"/>
+    <img src="assets/img/alaba.png" alt="alaba" class="NFT"/>
+  </div>
+
+  <h2 class="title">Collection</h2>
+
+  <div class="slider">
+    <div class="grid-item main contain-192">
+      <div class="items">
+        <div class="item item1">
+          <img src="assets/img/batshuayi.png" alt="" class="item" />
+        </div>
+        <div class="item item2"><img src="assets/img/chellini.png" alt="" /></div>
+        <div class="item item3"><img src="assets/img/allison.png" alt="" /></div>
+        <div class="item item4"><img src="assets/img/anthony.png" alt="" /></div>
+        <div class="item item5"><img src="assets/img/arnold.png" alt="" /></div>
+        <div class="item item6"><img src="assets/img/bale.png" alt="" /></div>
+        <div class="item item7"><img src="assets/img/benzema.png" alt="" /></div>
+        <div class="item item8"><img src="assets/img/bonucci.png" alt="" /></div>
+        <div class="item item9"><img src="assets/img/calhanoglu.png" alt="" /></div>
+        <div class="item item10"><img src="assets/img/dejong.png" alt="" /></div>
+        <div class="item item11"><img src="assets/img/alaba.png" alt="" /></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about mt-large" id="About">
+  <div class="contain-129 about-main">
+    <h2 class="title mb-small">About us</h2>
+    <div class="about-details">
+      <div class="about-content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+          molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+          vero eros et accumsan et iusto odio dignissim qui blandit praesent
+          luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+        </p>
+        <p class="mt-small">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+          molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+          vero eros et accumsan et iusto odio dignissim qui blandit praesent
+          luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+        </p>
+        <p class="mt-small">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+          molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+          vero eros et accumsan et iusto odio dignissim qui blandit praesent
+          luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+        </p>
+      </div>
+
+      <img src="assets/img/ballPitch.png" alt="ballPitch" class="ballPitch"/>
+    </div>
+  </div>
+</section>
+
+<section class="roadmap contain-192 mt-largest" id="Roadmap">
+  <div class="contain-129 road-main">
+    <h2 class="title">Roadmap</h2>
+    <img src="assets/img/soccerPitch.png" alt="" class="roadmap-img" />
+
+    <div class="road-content">
+      <div class="road road1">
+        <div class="road-title">2022 <span>Q1</span></div>
+        <img src="assets/img/cloud.png" alt="" class="road-img" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna
+        </p>
+      </div>
+      <div class="road road2">
+        <div class="road-title">2022 <span>Q2</span></div>
+        <img src="assets/img/cloud.png" alt="" class="road-img" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna
+        </p>
+      </div>
+      <div class="road road3">
+        <div class="road-title">2022 <span>Q3</span></div>
+        <img src="assets/img/cloud.png" alt="" class="road-img" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna
+        </p>
+      </div>
+      <div class="road road4">
+        <div class="road-title">2022 <span>Q4</span></div>
+        <img src="assets/img/cloud.png" alt="" class="road-img" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna
+        </p>
+      </div>
+      <div class="road road5">
+        <div class="road-title">2023 <span>Q1</span></div>
+        <picture>
+          <img src="assets/img/cloudLeft.png" alt="" class="road-img" />
+        </picture>
+        
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="teams contain-129 mt-large" id="Teams">
+  <h2 class="title">Teams</h2>
+  <div class="team-container">
+    <div class="team-members">
+      <div class="team-member">
+        <img
+          src="assets/img/team1.png"
+          alt="teamMember"
+          class="team-member__pic"
+        />
+        <div class="team-member__holder">
+          <img src="assets/img/teamName1.png" alt="" />
+          <span class="team-member__name">Mark Sweit</span>
+        </div>
+        <span class="team-member__job">Co-Founder</span>
+      </div>
+      <div class="team-member">
+        <img
+          src="assets/img/team2.png"
+          alt="teamMember"
+          class="team-member__pic"
+        />
+        <div class="team-member__holder">
+          <img src="assets/img/teamName2.png" alt="" />
+          <span class="team-member__name">Marv Letos</span>
+        </div>
+        <span class="team-member__job">Developer</span>
+      </div>
+      <div class="team-member">
+        <img
+          src="assets/img/team3.png"
+          alt="teamMember"
+          class="team-member__pic"
+        />
+        <div class="team-member__holder">
+          <img src="assets/img/teamName3.png" alt="" />
+          <span class="team-member__name">Sezon Ckaun</span>
+        </div>
+        <span class="team-member__job">Designer</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="Faqs contain-111 mt-medium" id="Faqs">
+  <h2 class="title">Faqs</h2>
+
+  <div class="accordion">
+    <div class="contentBox">
+      <div class="label">
+        <img src="assets/img/star.png" alt="" />Lorem Ipsum Dolor Sit Ametm
+        Dolor Sit Amt?
+      </div>
+      <div class="content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+          molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+          vero eros et accumsan et iusto odio dignissim qui blandit praesent
+          luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+        </p>
+      </div>
+    </div>
+    <div class="contentBox">
+      <div class="label">
+        <img src="assets/img/star.png" alt="" />Lorem Ipsum Dolor Sit Ametm
+        Dolor Sit Amt?
+      </div>
+      <div class="content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+          molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+          vero eros et accumsan et iusto odio dignissim qui blandit praesent
+          luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+        </p>
+      </div>
+    </div>
+    <div class="contentBox">
+      <div class="label">
+        <img src="assets/img/star.png" alt="" />Lorem Ipsum Dolor Sit Ametm
+        Dolor Sit Amt?
+      </div>
+      <div class="content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+          molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+          vero eros et accumsan et iusto odio dignissim qui blandit praesent
+          luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+        </p>
+      </div>
+    </div>
+    <div class="contentBox">
+      <div class="label">
+        <img src="assets/img/star.png" alt="" />Lorem Ipsum Dolor Sit Ametm
+        Dolor Sit Amt?
+      </div>
+      <div class="content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+          molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+          vero eros et accumsan et iusto odio dignissim qui blandit praesent
+          luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+        </p>
+      </div>
+    </div>
+    <div class="contentBox">
+      <div class="label">
+        <img src="assets/img/star.png" alt="" /> Lorem Ipsum Dolor Sit Ametm
+        Dolor Sit Amt?
+      </div>
+      <div class="content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+          molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+          vero eros et accumsan et iusto odio dignissim qui blandit praesent
+          luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="social contain-129 mt-large" id="social">
+  <div class="social-links">
+    <div id="twitter">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="51"
+        height="43"
+        fill="none"
+        xmlns:v="https://vecta.io/nano"
+      >
+        <path
+          d="M50.92 5.875a20.77 20.77 0 0 1-6 1.657c2.157-1.303 3.813-3.365 4.593-5.822a20.83 20.83 0 0 1-6.634 2.554C40.974 2.218 38.259.94 35.254.94c-5.77 0-10.447 4.712-10.447 10.524 0 .825.093 1.628.271 2.398-8.683-.439-16.38-4.629-21.533-10.996C2.646 4.421 2.13 6.228 2.13 8.157a10.54 10.54 0 0 0 4.648 8.76c-1.713-.055-3.323-.528-4.732-1.316l-.001.132c0 5.099 3.601 9.353 8.38 10.319a10.39 10.39 0 0 1-2.752.369 10.36 10.36 0 0 1-1.965-.189c1.329 4.181 5.187 7.224 9.759 7.309-3.575 2.822-8.08 4.505-12.974 4.505-.843 0-1.675-.05-2.492-.147 4.623 2.986 10.115 4.728 16.014 4.728 19.216 0 29.723-16.036 29.723-29.943a30.59 30.59 0 0 0-.03-1.361 21.32 21.32 0 0 0 5.213-5.448z"
+        
+        />
+      </svg>
+    </div>
+
+    <div id="discord">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="59"
+        height="45"
+        fill="none"
+        xmlns:v="https://vecta.io/nano"
+      >
+        <path
+          d="M49.874 4.555A48.03 48.03 0 0 0 38.108.943a.18.18 0 0 0-.189.089c-.508.894-1.071 2.061-1.465 2.978-4.443-.658-8.863-.658-13.215 0a30.01 30.01 0 0 0-1.488-2.978c-.039-.066-.114-.1-.189-.089-4.129.704-8.079 1.936-11.766 3.612-.032.014-.059.036-.077.066C2.224 15.701.171 26.509 1.178 37.183c.005.052.034.102.075.134 4.944 3.594 9.734 5.775 14.434 7.221.075.023.155-.005.203-.066 1.112-1.503 2.103-3.087 2.953-4.754a.18.18 0 0 0-.1-.252c-1.572-.59-3.069-1.31-4.509-2.127-.114-.066-.123-.227-.018-.304a24.6 24.6 0 0 0 .896-.695.18.18 0 0 1 .187-.025c9.46 4.275 19.702 4.275 29.051 0a.18.18 0 0 1 .189.023 22.96 22.96 0 0 0 .898.697c.105.077.098.239-.016.304-1.44.833-2.937 1.537-4.511 2.125-.102.039-.148.157-.098.254.868 1.664 1.859 3.249 2.951 4.751.046.064.127.091.203.068 4.723-1.446 9.513-3.628 14.457-7.221.043-.032.071-.08.075-.132 1.205-12.34-2.019-23.06-8.547-32.563-.016-.032-.043-.054-.075-.068zM20.256 30.684c-2.848 0-5.195-2.588-5.195-5.766s2.301-5.766 5.195-5.766c2.916 0 5.241 2.611 5.195 5.766 0 3.178-2.301 5.766-5.195 5.766zm19.208 0c-2.848 0-5.195-2.588-5.195-5.766s2.301-5.766 5.195-5.766c2.916 0 5.24 2.611 5.195 5.766 0 3.178-2.279 5.766-5.195 5.766z"
+          
+        />
+      </svg>
+    </div>
+
+    <div id="instagram">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="44"
+        height="44"
+        fill="none"
+        xmlns:v="https://vecta.io/nano"
+      >
+        <path
+          d="M22.252 4.799l8.653.125c2.088.095 3.222.444 3.977.737 1 .388 1.713.853 2.462 1.602a6.63 6.63 0 0 1 1.602 2.462c.293.755.642 1.889.737 3.976l.125 8.654-.125 8.653c-.095 2.088-.444 3.222-.737 3.977a6.63 6.63 0 0 1-1.602 2.462c-.749.749-1.463 1.213-2.462 1.602-.755.293-1.889.642-3.977.737l-8.653.125c-5.719 0-6.396-.022-8.654-.125-2.088-.095-3.222-.444-3.976-.737-1-.388-1.713-.853-2.462-1.602a6.63 6.63 0 0 1-1.602-2.462c-.293-.755-.642-1.889-.737-3.977l-.125-8.654.125-8.654c.095-2.088.444-3.222.737-3.977.388-1 .853-1.713 1.602-2.462s1.463-1.213 2.462-1.602c.755-.293 1.888-.642 3.976-.737l8.654-.125zm0-3.859l-8.829.129c-2.28.104-3.836.466-5.198.995-1.408.547-2.603 1.28-3.793 2.47s-1.923 2.385-2.47 3.793c-.529 1.362-.891 2.919-.995 5.198l-.129 8.829.129 8.829c.104 2.28.466 3.836.995 5.198.547 1.408 1.28 2.602 2.47 3.793s2.385 1.923 3.793 2.47c1.362.529 2.919.891 5.198.995l8.829.129 8.829-.129c2.279-.104 3.836-.466 5.198-.995 1.408-.547 2.602-1.28 3.793-2.47s1.923-2.385 2.47-3.793c.529-1.362.891-2.919.995-5.198l.129-8.829-.129-8.829c-.104-2.28-.466-3.836-.995-5.198-.547-1.408-1.28-2.602-2.47-3.793s-2.385-1.923-3.793-2.47c-1.362-.529-2.919-.891-5.198-.995L22.252.94zm0 10.418a11 11 0 0 0-10.997 10.997 11 11 0 0 0 10.997 10.997 11 11 0 0 0 10.997-10.997 11 11 0 0 0-10.997-10.997zm0 18.135a7.14 7.14 0 0 1-7.138-7.138 7.14 7.14 0 0 1 7.138-7.138 7.14 7.14 0 0 1 7.138 7.138 7.14 7.14 0 0 1-7.138 7.138zm14.001-18.57a2.57 2.57 0 0 1-2.57 2.57 2.57 2.57 0 0 1-2.57-2.57 2.57 2.57 0 0 1 2.57-2.57 2.57 2.57 0 0 1 2.57 2.57z"
+          
+        />
+      </svg>
+    </div>
+
+    <div id="openSea">
+      <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="none" xmlns:v="https://vecta.io/nano"><path d="M43.954 21.642c0 11.946-9.657 21.642-21.556 21.642S.842 33.588.842 21.642 10.499 0 22.398 0s21.556 9.696 21.556 21.642z" /><path d="M11.491 22.378l.086-.13 5.604-8.787c.086-.13.259-.13.345.043.948 2.121 1.724 4.718 1.38 6.363-.172.692-.604 1.601-1.121 2.424-.043.13-.129.26-.215.346-.043.043-.086.087-.172.087h-5.777c-.129-.043-.216-.216-.129-.346zm24.962 1.645v1.385c0 .087-.043.13-.129.173-.431.173-1.94.866-2.544 1.731-1.595 2.207-2.802 5.367-5.475 5.367H17.053c-3.966 0-7.2-3.246-7.2-7.272v-.13c0-.087.086-.173.172-.173h6.337c.129 0 .216.13.216.216-.043.389.043.822.216 1.212a2.19 2.19 0 0 0 1.983 1.212h3.104V25.32H18.82c-.172 0-.259-.173-.172-.303a.6.6 0 0 0 .129-.173c.302-.433.69-1.039 1.121-1.775.302-.476.56-1.039.776-1.558a2.11 2.11 0 0 0 .129-.303c.043-.173.129-.346.172-.476l.129-.389c.086-.433.129-.909.129-1.428a3.08 3.08 0 0 0-.043-.606c0-.216-.043-.433-.043-.649 0-.173-.043-.39-.086-.563-.043-.303-.086-.563-.172-.866l-.043-.087c-.043-.173-.086-.39-.172-.563a16.2 16.2 0 0 0-.604-1.731l-.259-.649a17.06 17.06 0 0 0-.388-.866c-.043-.13-.129-.216-.172-.346s-.129-.26-.172-.39l-.129-.26-.388-.692c-.043-.087.043-.216.129-.173l2.371.649.302.087.345.086.129.043V9.912c0-.693.56-1.255 1.207-1.255a1.2 1.2 0 0 1 .862.346 1.21 1.21 0 0 1 .345.866v2.078l.259.087s.043 0 .043.043c.043.043.129.13.259.216.086.087.172.173.302.26.216.173.517.433.819.693.086.086.173.13.216.216a17.1 17.1 0 0 1 1.25 1.255c.129.13.216.26.345.39s.216.303.345.433l.431.563c.043.087.129.173.172.303.172.26.302.519.474.779.043.13.129.26.173.389.172.346.302.693.345 1.082.043.087.043.173.043.216.043.087.043.216.043.346.043.39 0 .736-.043 1.125-.043.173-.086.303-.129.476-.043.13-.086.303-.172.476-.129.303-.302.606-.474.909-.043.087-.129.216-.216.346s-.172.216-.216.346c-.086.13-.215.26-.302.389s-.172.26-.302.39c-.129.173-.302.346-.431.519-.086.087-.173.216-.302.303-.086.087-.173.216-.302.303-.129.13-.259.26-.388.346l-.259.216c-.043.043-.086.043-.129.043h-1.897v2.424h2.371c.517 0 1.035-.173 1.423-.519.129-.13.733-.649 1.466-1.428.043-.043.043-.043.086-.043l6.553-1.905c.259-.13.345-.043.345.087z" fill="#232c56"/></svg>
+        
+      </svg>
+    </div>
+  </div>
+</section>
+
+
+
+{% endblock %} {% block js %} {% endblock %}
